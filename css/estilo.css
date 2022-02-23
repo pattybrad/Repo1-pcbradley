@@ -34,7 +34,17 @@ li:hover{
 ul {
     display: flex;
 }
-.logoP{
+footer{
+    background-image: linear-gradient(to top,transparent,lightcoral)      /* ANIMACIONES-GRADIENTE FOOTER */
+}
+
+header{
+    background-image: linear-gradient(to bottom,lightcoral,transparent)    /* ANIMACIONES GRADIENTE HEADER */
+ }
+h1{
+    transform: rotate(-10deg);
+}
+ .logoP{
 	width: 200px;
 	height: auto;
 }
@@ -256,3 +266,8 @@ ul {
     height: 100%;
     grid-gap: 5px;
 }
+
+/* ANIMACIONES */
+ p{
+    background-image: linear-gradient (blue,lightcoral)
+ }
